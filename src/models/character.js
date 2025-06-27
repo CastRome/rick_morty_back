@@ -8,6 +8,7 @@ const Character = sequelize.define("Character", {
   gender: DataTypes.STRING,
   origin: DataTypes.STRING,
   image: DataTypes.STRING,
+  occupation: DataTypes.STRING,
 });
 
 module.exports = Character;

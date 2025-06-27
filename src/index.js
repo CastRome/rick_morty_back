@@ -35,7 +35,7 @@ async function startServer() {
   try {
     await sequelize.authenticate();
     console.log("✅ DB connected successfully");
-    await sequelize.sync({ alter: true });
+    await sequelize.sync();
   } catch (error) {
     console.error("❌ Error connecting or syncing the DB:", error);
     process.exit(1);

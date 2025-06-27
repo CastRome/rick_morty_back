@@ -9,6 +9,7 @@ module.exports = gql`
     gender: String
     origin: String
     image: String
+    occupation: String
     favoritesCount: Int
     comments: [Comment]
   }

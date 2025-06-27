@@ -51,6 +51,16 @@ REDIS_HOST=localhost
 REDIS_PORT=6379
 ```
 
+### 4. Run Redis
+
+If you are using docker
+
+```bash
+docker run --name redis-server -p 6379:6379 -d redis
+```
+
+Else inicialice Redis.
+
 ### 4. Run Database Migrations
 
 ```bash
